@@ -37,7 +37,7 @@ Cell.prototype.countBees = function() {
   }
   var total = 0;
   for (var xoff = -1; xoff <= 1; xoff++) {
-    var i = tihs.i + xoff;
+    var i = this.i + xoff;
     if (i < 0 || i >= cols) continue;
     
     for (var yoff = -1; yoff <= 1; yoff++) {
